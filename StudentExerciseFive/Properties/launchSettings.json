@@ -1,30 +1,20 @@
-﻿{
-  "$schema": "http://json.schemastore.org/launchsettings.json",
-  "iisSettings": {
-    "windowsAuthentication": false, 
-    "anonymousAuthentication": true, 
-    "iisExpress": {
-      "applicationUrl": "http://localhost:52060",
-      "sslPort": 0
-    }
-  },
+{
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "api/values",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "StudentExerciseFive": {
+    "Start": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
-      "applicationUrl": "http://localhost:5000",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      "launchUrl": "api/student",
+      "ErrorString": "After parsing a value an unexpected character was encountered: \". Path 'profiles.StudentExerciseFive.applicationUrl', line 25, position 6.",
+      "applicationUrl": "http://localhost:5000/"
+    },
+    "studentExerciseFive": {
+        "commandName": "Project",
+        "launchBrowser": true,
+        "launchUrl": "api/student",
+        "applicationUrl": "http://localhost:5000/",
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        }
     }
   }
 }
