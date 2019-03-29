@@ -187,7 +187,7 @@ namespace StudentExerciseFive.Controllers
 
                     int newId = (int)cmd.ExecuteScalar();
                     person.Id = newId;
-                    return CreatedAtRoute("GetStudents", new { id = newId }, person);
+                    return CreatedAtRoute("GetStudent", new { id = newId }, person);
 
                 }
             }
